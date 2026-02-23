@@ -1,0 +1,58 @@
+# Build artifacts
+build/
+*.o
+*.d
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# Executables
+math_parser
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+core
+vgcore.*
+
+# Compiled Static libraries
+*.lai
+*.la
+*.lo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# CMake (in case you add it later)
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+
+# Coverage and profiling
+*.gcov
+*.gcda
+*.gcno
+coverage/
+*.profdata
